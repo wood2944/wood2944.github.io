@@ -6,11 +6,10 @@
   </head>
   <body>
     <h1>Hello World! Super Test</h1>
-    <form action="http://localhost:1880" method="post">
-            <label for="fname">First name:</label><br>
-            <input type="text" id="fname" value=""><br>
-            <label for="lname">Last name:</label><br>
-            <input type="text" id="lname" value="">
-          </form>
+    <form action="http://localhost:1880/hello-form" method="post">
+        <input name="fname" value="John">
+        <input name="lname" value="Smith">
+        <button>Say hello</button>
+    </form>
   </body>
 </html>
